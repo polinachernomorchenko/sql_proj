@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 
-con = sqlite3.connect(r'C:\Users\Polina\Desktop\mak_base.db')
+con = sqlite3.connect(r'mak_base.db')
 cur = con.cursor()
 
 
